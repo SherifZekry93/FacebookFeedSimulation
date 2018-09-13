@@ -9,19 +9,25 @@
 /* Begin PBXBuildFile section */
 		7E413297214825C700D2549F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E413296214825C700D2549F /* AppDelegate.swift */; };
 		7E413299214825C700D2549F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E413298214825C700D2549F /* ViewController.swift */; };
-		7E41329C214825C700D2549F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E41329A214825C700D2549F /* Main.storyboard */; };
 		7E41329E214825CA00D2549F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E41329D214825CA00D2549F /* Assets.xcassets */; };
 		7E4132A1214825CA00D2549F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E41329F214825CA00D2549F /* LaunchScreen.storyboard */; };
+		7E4132A921482B6900D2549F /* HomeFeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4132A821482B6900D2549F /* HomeFeedCollectionViewCell.swift */; };
+		7E4132AB2148F63500D2549F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4132AA2148F63500D2549F /* Post.swift */; };
+		7EC396F82149249A00C4845F /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC396F72149249A00C4845F /* CustomTabBarController.swift */; };
+		7EC396FA214928ED00C4845F /* FriendRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC396F9214928ED00C4845F /* FriendRequestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7E413293214825C700D2549F /* FacebookFeedSimulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookFeedSimulation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E413296214825C700D2549F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E413298214825C700D2549F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7E41329B214825C700D2549F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7E41329D214825CA00D2549F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4132A0214825CA00D2549F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E4132A2214825CA00D2549F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E4132A821482B6900D2549F /* HomeFeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeedCollectionViewCell.swift; sourceTree = "<group>"; };
+		7E4132AA2148F63500D2549F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		7EC396F72149249A00C4845F /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		7EC396F9214928ED00C4845F /* FriendRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendRequestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				7E413296214825C700D2549F /* AppDelegate.swift */,
 				7E413298214825C700D2549F /* ViewController.swift */,
-				7E41329A214825C700D2549F /* Main.storyboard */,
 				7E41329D214825CA00D2549F /* Assets.xcassets */,
 				7E41329F214825CA00D2549F /* LaunchScreen.storyboard */,
 				7E4132A2214825CA00D2549F /* Info.plist */,
+				7E4132A821482B6900D2549F /* HomeFeedCollectionViewCell.swift */,
+				7E4132AA2148F63500D2549F /* Post.swift */,
+				7EC396F72149249A00C4845F /* CustomTabBarController.swift */,
+				7EC396F9214928ED00C4845F /* FriendRequestViewController.swift */,
 			);
 			path = FacebookFeedSimulation;
 			sourceTree = "<group>";
@@ -124,7 +133,6 @@
 			files = (
 				7E4132A1214825CA00D2549F /* LaunchScreen.storyboard in Resources */,
 				7E41329E214825CA00D2549F /* Assets.xcassets in Resources */,
-				7E41329C214825C700D2549F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,20 +145,16 @@
 			files = (
 				7E413299214825C700D2549F /* ViewController.swift in Sources */,
 				7E413297214825C700D2549F /* AppDelegate.swift in Sources */,
+				7EC396FA214928ED00C4845F /* FriendRequestViewController.swift in Sources */,
+				7E4132A921482B6900D2549F /* HomeFeedCollectionViewCell.swift in Sources */,
+				7EC396F82149249A00C4845F /* CustomTabBarController.swift in Sources */,
+				7E4132AB2148F63500D2549F /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E41329A214825C700D2549F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7E41329B214825C700D2549F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7E41329F214825CA00D2549F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
